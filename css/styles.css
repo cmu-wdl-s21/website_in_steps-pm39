@@ -4,10 +4,16 @@
  * information for anyone trying to read the file: notes, hints, etc. One very valuable
  * piece of information is who to talk to about this file if you have questions! Hence:
  *
- * Author: (your name here)
+ * Author: Paul Mazaitis
 */
 
 /* This is a CSS Comment; note the comment syntax is different from what we use to mark up comments in HTML! */
 
 /* Page styles after this comment */
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+body {font-family: Lato, sans-serif;}
+
+h1 {font-family: "Architects Daughter", cursive;}
