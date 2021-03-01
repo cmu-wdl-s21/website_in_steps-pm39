@@ -18,31 +18,31 @@ body {
   font-family: Lato, sans-serif;
 }
 
-h1 {
-  font-family: "Architects Daughter", cursive;
-}
+h1 {font-family: "Architects Daughter", cursive;}
 
-/* I want to set these for all of h2, h3, h4... */
-h2,
-h3,
-h4 {
-  font-weight: bold;
+/* I'd like these to apply to all of the headings */
+
+h2,h3,h4 {
   color: darkgreen;
+  font-weight: 700;
 }
 
-/* ...but then make specific changes for some headers. */
+/* Now to adjust individual sizes */
 
-h2 {font-size: 190%;}
+h2 {
+  font-size: 200%;
+}
 
-h3 {font-size: 140%;}
+h3 {
+  font-size: 140%;
+}
 
-h4 {font-size: 110%;}
+h4 {
+  font-size: 120%;
+}
 
-/* Starting a green theme, here */
-a {color: darkgreen;}
+/* Starting to set up an accent color */
+a {
+  color: darkgreen;
 
-/* Note: we can't yet differentiate list items in the lists and sublists (can you see why?) */
-
-li {
-  font-style: italic;
 }
