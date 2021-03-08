@@ -55,16 +55,45 @@ a {
 
 }
 
-nav {
-  border-color: darkblue;
-  border-width: 3px;
-  border-style: solid;
+/* Warning: this affects all the iamges on the site! */
+
+img {
+  width: 9em;
   padding: 0.5em;
-  background-color: darkblue;
-  color: white;
+  border: solid 2px grey;
+  margin: 0.5em;
 }
 
-header {
-  background-color: darkblue;
-  height: 3em;
+/* We can constrain the main element and everything it to a static width for readability, then center it for balance.*/
+
+main {
+  width: 45em;
+  margin: 0 auto 0 auto;
+}
+
+/* Let's make the header interesting */
+
+header {background: darkgreen;
+        color: white;
+        padding: 1em;
+        border-radius: 1em;
+        width: 10em;
+        height: 10em;
+        text-align: center;
+        margin: 20px auto 20px auto;
+        transform: rotate(7deg)
+        }
+
+header h1 {
+        background: white;
+        color: black;
+        padding: 0.2em;
+        border-radius: 1em;
+        margin:0;
+}
+
+header p {
+  margin: 0 0 0.2em 0;
+  font-size: 150%;
+
 }
