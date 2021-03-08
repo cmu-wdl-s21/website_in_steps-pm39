@@ -18,13 +18,20 @@ body {
   font-family: Lato, sans-serif;
 }
 
-h1 {font-family: "Architects Daughter", cursive;}
+h1 {
+  font-family: "Architects Daughter", cursive;
+}
 
 /* I'd like these to apply to all of the headings */
 
-h2,h3,h4 {
+h2,
+h3,
+h4 {
   color: darkgreen;
   font-weight: 700;
+
+
+
 }
 
 /* Now to adjust individual sizes */
@@ -42,7 +49,22 @@ h4 {
 }
 
 /* Starting to set up an accent color */
+
 a {
   color: darkgreen;
 
+}
+
+nav {
+  border-color: darkblue;
+  border-width: 3px;
+  border-style: solid;
+  padding: 0.5em;
+  background-color: darkblue;
+  color: white;
+}
+
+header {
+  background-color: darkblue;
+  height: 3em;
 }
