@@ -55,13 +55,25 @@ a {
 
 }
 
-/* Warning: this affects all the iamges on the site! */
+/* Warning: this affects all the images on the site!
+
+   Trying for a consistant image treatment. */
 
 img {
   width: 9em;
   padding: 0.5em;
   border: solid 2px grey;
   margin: 0.5em;
+}
+
+.homepage_photo {
+  width: 9em;
+  float: left;
+}
+
+.contact_photo {
+  width: 6em;
+  float: right;
 }
 
 /* We can constrain the main element and everything it to a static width for readability, then center it for balance.*/
@@ -71,9 +83,9 @@ main {
   margin: 0 auto 0 auto;
 }
 
-/* Let's make the header interesting */
+/* Let's make the headers interesting */
 
-header {
+.hello_sticker {
   background: darkgreen;
   color: white;
   padding: 1em;
@@ -85,7 +97,7 @@ header {
   transform: rotate(7deg)
 }
 
-header h1 {
+.hello_sticker h1 {
   background: white;
   color: black;
   padding: 0.2em;
@@ -93,17 +105,59 @@ header h1 {
   margin: 0;
 }
 
-header p {
+.hello_sticker p {
   margin: 0 0 0.2em 0;
   font-size: 150%;
 
 }
 
-footer {
+.business_card {
+  background: darkgreen;
+  color: white;
+  padding: 1em;
+  width: 18em;
+  height: 10em;
+  margin: 20px auto 20px auto;
+  border-radius: 1em;
+  transform: rotate(7deg)
+}
+
+.business_card h1 {
+  margin-top: 0;
+  margin-bottom: 2em;
+}
+
+.business_card .greeking {
+  width: 5em;
+  height: 0.3em;
+  border-radius: 0.3em;
+  background-color: white;
+  margin-bottom: 1em;
+}
+
+/* nav styles */
+
+nav {
   width: 45em;
   margin: 0 auto 0 auto;
   background-color: darkgreen;
   padding: 1em;
   color: white;
   border-radius: 1em;
+}
+
+nav a {
+  color: white;
+}
+
+/* Footer styles */
+
+footer {
+  width: 45em;
+  margin: 1em auto 0 auto;
+  background-color: darkgreen;
+  padding: 1em;
+  color: white;
+  border-radius: 1em;
+  clear: both;
 }
