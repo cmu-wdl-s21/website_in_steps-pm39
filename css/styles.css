@@ -133,6 +133,23 @@ main {
   position: relative;
 }
 
+.zipline_guy {
+  position: absolute;
+  left: -5em;
+  top: -1.5em;
+}
+
+.zipline_guy g {
+  stroke: #000000;
+  fill: #000000;
+  stroke-width: 1px;
+}
+
+/* Turn the zipline guy red when we hover over the zipline section */
+.zipline:hover .zipline_guy g {
+  fill: red;
+}
+
 /* Things relating to the contact page */
 
 .business_card {
