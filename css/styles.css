@@ -111,6 +111,23 @@ main {
 
 }
 
+.mongered_thing {
+  position: relative;
+}
+
+.mongered_thing img {
+  position: absolute;
+  left: -5em;
+  top: -2em;
+  width: 3em;
+}
+
+.zipline {
+  position: relative;
+}
+
+/* Things relating to the contact page */
+
 .business_card {
   background: darkgreen;
   color: white;
