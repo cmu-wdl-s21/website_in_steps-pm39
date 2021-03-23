@@ -76,6 +76,10 @@ img {
   float: right;
 }
 
+.contact_main {
+  overflow: auto;
+}
+
 /* We can constrain the main element and everything it to a static width for readability, then center it for balance.*/
 
 main {
