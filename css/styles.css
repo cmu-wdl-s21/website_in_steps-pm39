@@ -125,6 +125,10 @@ main {
   border-radius: 0.5em;
 }
 
+.mongered_thing:hover img {
+  background-color: darkgray;
+}
+
 .zipline {
   position: relative;
 }
