@@ -292,7 +292,8 @@ nav .current_page {
   margin: 1em;
 }
 
-/* I want these to be h1, becasue they are logically the top level header for each portfolio card, but I want them to appear like other non-title headers on the page, so this override is needed... */
+/* I want these to be h1, becasue they are logically the top level header for each portfolio card, but I want them to appear like other non-title headers on the page, so this override is needed...obs
+*/
 .portfolio_item h1 {
   font-family: Lato, sans-serif;
 }
