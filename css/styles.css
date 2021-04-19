@@ -155,6 +155,10 @@ nav ul li a {
   border-radius: 0.3em;
 }
 
+nav ul li a:hover {
+  background-color: white;
+}
+
 nav .current_page {
   color: black;
 }
