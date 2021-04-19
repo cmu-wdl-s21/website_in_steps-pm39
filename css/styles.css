@@ -277,6 +277,39 @@ nav .current_page {
   border-radius: 3px;
 }
 
+/* Portfolio layout */
+
+.portfolio_content {
+  width: 45em;
+  margin: 0 auto 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.portfolio_item {
+  padding: 0.3em;
+  border: solid 2px grey;
+  margin: 1em;
+}
+
+.portfolio_item figure {
+  float: right;
+  width: 7em;
+  margin: 0 0 0 0.5em;
+  border: solid 2px lightgrey;
+}
+
+.portfolio_item img {
+  width: 5em;
+  border: none;
+}
+
+.portfolio_item figcaption {
+  font-size: 80%;
+  font-style: italic;
+  text-align: center;
+}
+
 /* Footer styles */
 
 footer {
