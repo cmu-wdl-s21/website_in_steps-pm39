@@ -115,6 +115,52 @@ img {
 
 }
 
+/* nav styles */
+
+nav {
+  width: 45em;
+  margin: 0 auto 0 auto;
+  background-color: darkgreen;
+  padding: 0.1em;
+  color: white;
+  border-radius: 1em;
+}
+
+nav a {
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0px;
+  margin: 0.1em
+}
+
+nav ul li {
+  flex: 1;
+  text-align: center;
+  border-radius: 0.3em;
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: darkgreen;
+  background-color: #e5e5e5;
+  font-weight: bold;
+  font-size: 120%;
+  margin: 0.5em;
+  padding: 0.2em;
+  border-radius: 0.3em;
+}
+
+nav .current_page {
+  color: black;
+}
+
+/*Image hovering effects*/
+
 .mongered_thing {
   position: relative;
 }
@@ -150,6 +196,7 @@ img {
 }
 
 /* Turn the zipline guy red when we hover over the zipline section */
+
 .zipline:hover .zipline_guy g {
   fill: red;
 }
@@ -224,21 +271,6 @@ img {
   margin: 0.3em;
   height: 6em;
   border-radius: 3px;
-}
-
-/* nav styles */
-
-nav {
-  width: 45em;
-  margin: 0 auto 0 auto;
-  background-color: darkgreen;
-  padding: 1em;
-  color: white;
-  border-radius: 1em;
-}
-
-nav a {
-  color: white;
 }
 
 /* Footer styles */
